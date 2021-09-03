@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Groot Translations</title>
+  </head>
+  <body>
+    <nav
+      class="
+        navbar navbar-collapse
+        flex
+        justify-content-center
+        align-items-center
+      "
+      id="navbar"
+    >
+      <h4 style="text-align: center;
+      color: black;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin: 10px 0;
+      ">Pirate speak translator</h4>
+    </nav>
+
+    <main>
+      <div class="translator-bx">
+      <textarea
+        placeholder="Please Enter English sentence to convert it "
+        name=""
+        class="text-input"
+        id="txt-input"
+        autofocus
+      ></textarea>
+      <div class="btn-container">
+        <button class="btn btn-primary" id="btn-translate">
+          Translate Here
+        </button>
+      </div>
+      <div id="output"></div>
+      </div>
+      <div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
